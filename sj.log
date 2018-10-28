@@ -1,0 +1,140 @@
+2018-10-28 21:39:43 [main] INFO  com.vg.sj.service.WorkerServiceTest - Starting WorkerServiceTest on Varshas-MacBook-Air.local with PID 799 
+2018-10-28 21:39:43 [main] DEBUG com.vg.sj.service.WorkerServiceTest - Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2018-10-28 21:39:43 [main] INFO  com.vg.sj.service.WorkerServiceTest - No active profile set, falling back to default profiles: default
+2018-10-28 21:39:45 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$498f0728] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-28 21:39:47 [main] INFO  com.vg.sj.service.WorkerServiceTest - Started WorkerServiceTest in 4.614 seconds (JVM running for 6.923)
+2018-10-28 21:39:48 [main] INFO  com.vg.sj.service.WorkerService - No Matching Worker Found For id 10000
+2018-10-28 21:39:48 [main] INFO  com.vg.sj.service.JobService - Jobs grouped by JobTitle ::
+ The Resinator::Job [driverLicenseRequired=false, requiredCertificates=[The Human Handbook, Outstanding Memory Award, Excellence in Organization], workersRequired=1, startDate=Thu Nov 12 20:29:19 AEDT 2015, jobTitle=The Resinator, company=Frenex]
+The Resinator::Job [driverLicenseRequired=true, requiredCertificates=[Office Lunch Expert], workersRequired=5, startDate=Tue Nov 03 09:12:40 AEDT 2015, jobTitle=The Resinator, company=Lovepad]
+Arts and Crafts Designer::Job [driverLicenseRequired=false, requiredCertificates=[Excellence in Humor and Entertainment, Office Lunch Expert], workersRequired=1, startDate=Sat Nov 21 23:46:43 AEDT 2015, jobTitle=Arts and Crafts Designer, company=Xylar]
+Arts and Crafts Designer::Job [driverLicenseRequired=false, requiredCertificates=[Outstanding Memory Award, The Encouraging Word Award, Office Lunch Expert], workersRequired=4, startDate=Mon Nov 02 16:37:26 AEDT 2015, jobTitle=Arts and Crafts Designer, company=Delphide]
+Crayon Evangelist::Job [driverLicenseRequired=false, requiredCertificates=[The Human Handbook], workersRequired=1, startDate=Tue Nov 03 14:46:44 AEDT 2015, jobTitle=Crayon Evangelist, company=Bluegrain]
+Director, Ethical Hacking::Job [driverLicenseRequired=true, requiredCertificates=[Outstanding Innovator], workersRequired=3, startDate=Fri Oct 30 12:26:43 AEDT 2015, jobTitle=Director, Ethical Hacking, company=Mantrix]
+VP of Misc. Stuff::Job [driverLicenseRequired=true, requiredCertificates=[Outside the Box Thinker, The Asker of Good Questions, Marvelous Multitasker], workersRequired=2, startDate=Mon Nov 02 04:28:54 AEDT 2015, jobTitle=VP of Misc. Stuff, company=Zuvy]
+The Resinator::Job [driverLicenseRequired=false, requiredCertificates=[Outstanding Memory Award], workersRequired=2, startDate=Thu Nov 12 18:23:56 AEDT 2015, jobTitle=The Resinator, company=Centice]
+Crayon Evangelist::Job [driverLicenseRequired=true, requiredCertificates=[Excellence in Organization], workersRequired=1, startDate=Sun Nov 01 15:36:23 AEDT 2015, jobTitle=Crayon Evangelist, company=Cinaster]
+VP of Misc. Stuff::Job [driverLicenseRequired=true, requiredCertificates=[Outstanding Innovator], workersRequired=1, startDate=Tue Nov 03 18:55:05 AEDT 2015, jobTitle=VP of Misc. Stuff, company=Izzby]
+Arts and Crafts Designer::Job [driverLicenseRequired=true, requiredCertificates=[Marvelous Multitasker, Healthy Living Promoter], workersRequired=2, startDate=Sun Nov 08 18:44:19 AEDT 2015, jobTitle=Arts and Crafts Designer, company=Zolarity]
+Director, Ethical Hacking::Job [driverLicenseRequired=true, requiredCertificates=[The Human Handbook, Outstanding Memory Award, The Risk Taker], workersRequired=2, startDate=Wed Nov 11 19:42:49 AEDT 2015, jobTitle=Director, Ethical Hacking, company=Keengen]
+
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa51a9a4d728a65f6a, Job Starting on :4 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa51a9a4d728a65f6a; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa7383f3a5241674c8, Job Starting on :2 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa7383f3a5241674c8; Difference in Location : 17.755258731837486 , Max :20
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa8fb129af1d965af9, Job Starting on :6 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa8fb129af1d965af9; WorkerAvailableStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa1cba0990d25e4baf, Job Starting on :1 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa1cba0990d25e4baf; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa47b4aa23bbf14ba8, Job Starting on :2 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa47b4aa23bbf14ba8; Difference in Location : 49.6147139820087 , Max :20
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa47b4aa23bbf14ba8; LocationMatchStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aad17436e4c03c1c9a, Job Starting on :5 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aad17436e4c03c1c9a; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aaf75e928a5df43d76, Job Starting on :1 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aaf75e928a5df43d76; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa7f96c1f61adfd108, Job Starting on :4 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa7f96c1f61adfd108; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aaf32d24f06dbfb3a2, Job Starting on :7 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aaf32d24f06dbfb3a2; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa7a5afbfc38e01230, Job Starting on :2 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa7a5afbfc38e01230; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aaf4f92160f458eff3, Job Starting on :7 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aaf4f92160f458eff3; Difference in Location : 60.26203172663586 , Max :20
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aaf4f92160f458eff3; LocationMatchStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aafc7bcc15122c4ebf, Job Starting on :3 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aafc7bcc15122c4ebf; CertificatesPresentStrategy failed validation
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - For Worker 48 , Matching jobs are : 562f66aa7383f3a5241674c8
+2018-10-28 21:39:48 [main] INFO  com.vg.sj.service.JobService - Jobs grouped by JobTitle ::
+ Head of global trends and futuring::Job [driverLicenseRequired=false, requiredCertificates=[Marvelous Multitasker], workersRequired=3, startDate=Sat Oct 31 20:38:55 AEDT 2015, jobTitle=Head of global trends and futuring, company=Plasto]
+Chief Amazement Officer::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, Healthy Living Promoter, Calm in the Eye of the Storm], workersRequired=4, startDate=Mon Nov 23 06:37:15 AEDT 2015, jobTitle=Chief Amazement Officer, company=Duoflex]
+Chief Amazement Officer::Job [driverLicenseRequired=true, requiredCertificates=[Office Lunch Expert], workersRequired=3, startDate=Fri Oct 30 02:50:29 AEDT 2015, jobTitle=Chief Amazement Officer, company=Perkle]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, Marvelous Multitasker, The Behind the Scenes Wonder], workersRequired=2, startDate=Sun Nov 08 23:56:53 AEDT 2015, jobTitle=Director of First Impressions, company=Darwinium]
+Crayon Evangelist::Job [driverLicenseRequired=false, requiredCertificates=[The Human Handbook], workersRequired=1, startDate=Tue Nov 03 14:46:44 AEDT 2015, jobTitle=Crayon Evangelist, company=Bluegrain]
+Chief Amazement Officer::Job [driverLicenseRequired=true, requiredCertificates=[Outside the Box Thinker, Calm in the Eye of the Storm, Healthy Living Promoter], workersRequired=4, startDate=Fri Nov 27 01:51:01 AEDT 2015, jobTitle=Chief Amazement Officer, company=Digifad]
+Director of First Impressions::Job [driverLicenseRequired=true, requiredCertificates=[Outstanding Memory Award, The Asker of Good Questions], workersRequired=4, startDate=Sun Nov 08 08:45:22 AEDT 2015, jobTitle=Director of First Impressions, company=Comtest]
+Ambassador of buzz::Job [driverLicenseRequired=false, requiredCertificates=[The Asker of Good Questions], workersRequired=2, startDate=Tue Nov 10 15:11:26 AEDT 2015, jobTitle=Ambassador of buzz, company=Zytrac]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award], workersRequired=4, startDate=Sat Nov 14 21:07:21 AEDT 2015, jobTitle=Director of First Impressions, company=Nimon]
+Crayon Evangelist::Job [driverLicenseRequired=true, requiredCertificates=[Excellence in Organization], workersRequired=1, startDate=Sun Nov 01 15:36:23 AEDT 2015, jobTitle=Crayon Evangelist, company=Cinaster]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[Healthy Living Promoter], workersRequired=5, startDate=Thu Nov 12 07:45:02 AEDT 2015, jobTitle=Director of First Impressions, company=Eplode]
+
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aacbff2d14fcaae283, Job Starting on :6 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aacbff2d14fcaae283; WorkerAvailableStrategy failed validation
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa4742de2c682f07f7, Job Starting on :1 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa4742de2c682f07f7; Difference in Location : 40.45904510669865 , Max :50
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa66f3026d02651040, Job Starting on :5 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa66f3026d02651040; Difference in Location : 49.59834062473364 , Max :50
+2018-10-28 21:39:48 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa99105d7eaf0c9694, Job Starting on :7 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa99105d7eaf0c9694; Difference in Location : 38.84353946801278 , Max :50
+2018-10-28 21:39:48 [main] INFO  c.v.s.p.engine.JobMatchingEngine - For Worker 12 , Matching jobs are : 562f66aa4742de2c682f07f7, 562f66aa66f3026d02651040, 562f66aa99105d7eaf0c9694
+2018-10-28 21:39:48 [main] INFO  c.v.sj.controller.WorkerControllerIT - Starting WorkerControllerIT on Varshas-MacBook-Air.local with PID 799 (started by VG in /Users/VG/Downloads/SJ)
+2018-10-28 21:39:48 [main] DEBUG c.v.sj.controller.WorkerControllerIT - Running with Spring Boot v2.0.6.RELEASE, Spring v5.0.10.RELEASE
+2018-10-28 21:39:48 [main] INFO  c.v.sj.controller.WorkerControllerIT - No active profile set, falling back to default profiles: default
+2018-10-28 21:39:49 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$498f0728] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-28 21:39:49 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2018-10-28 21:39:49 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-10-28 21:39:49 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 19 ms
+2018-10-28 21:39:49 [main] INFO  c.v.sj.controller.WorkerControllerIT - Started WorkerControllerIT in 1.357 seconds (JVM running for 9.438)
+2018-10-28 21:39:49 [main] INFO  com.vg.sj.service.JobService - Jobs grouped by JobTitle ::
+ Chief Troublemaker::Job [driverLicenseRequired=false, requiredCertificates=[Outstanding Memory Award, Calm in the Eye of the Storm], workersRequired=3, startDate=Tue Nov 03 20:45:47 AEDT 2015, jobTitle=Chief Troublemaker, company=Maximind]
+Chief Troublemaker::Job [driverLicenseRequired=true, requiredCertificates=[The Behind the Scenes Wonder, Calm in the Eye of the Storm, Healthy Living Promoter], workersRequired=2, startDate=Wed Nov 11 03:07:25 AEDT 2015, jobTitle=Chief Troublemaker, company=Uxmox]
+
+2018-10-28 21:39:49 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa12b3d30a71d3cd89; WorkerActiveStrategy failed validation
+2018-10-28 21:39:49 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aa60c4be83d4b592ec; WorkerActiveStrategy failed validation
+2018-10-28 21:39:49 [main] INFO  c.v.s.p.engine.JobMatchingEngine - For Worker 1 , Matching jobs are : 
+2018-10-28 21:39:50 [main] INFO  com.vg.sj.service.JobService - Jobs grouped by JobTitle ::
+ Head of global trends and futuring::Job [driverLicenseRequired=false, requiredCertificates=[Marvelous Multitasker], workersRequired=3, startDate=Sat Oct 31 20:38:55 AEDT 2015, jobTitle=Head of global trends and futuring, company=Plasto]
+Chief Amazement Officer::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, Healthy Living Promoter, Calm in the Eye of the Storm], workersRequired=4, startDate=Mon Nov 23 06:37:15 AEDT 2015, jobTitle=Chief Amazement Officer, company=Duoflex]
+Chief Amazement Officer::Job [driverLicenseRequired=true, requiredCertificates=[Office Lunch Expert], workersRequired=3, startDate=Fri Oct 30 02:50:29 AEDT 2015, jobTitle=Chief Amazement Officer, company=Perkle]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, Marvelous Multitasker, The Behind the Scenes Wonder], workersRequired=2, startDate=Sun Nov 08 23:56:53 AEDT 2015, jobTitle=Director of First Impressions, company=Darwinium]
+Crayon Evangelist::Job [driverLicenseRequired=false, requiredCertificates=[The Human Handbook], workersRequired=1, startDate=Tue Nov 03 14:46:44 AEDT 2015, jobTitle=Crayon Evangelist, company=Bluegrain]
+Chief Amazement Officer::Job [driverLicenseRequired=true, requiredCertificates=[Outside the Box Thinker, Calm in the Eye of the Storm, Healthy Living Promoter], workersRequired=4, startDate=Fri Nov 27 01:51:01 AEDT 2015, jobTitle=Chief Amazement Officer, company=Digifad]
+Director of First Impressions::Job [driverLicenseRequired=true, requiredCertificates=[Outstanding Memory Award, The Asker of Good Questions], workersRequired=4, startDate=Sun Nov 08 08:45:22 AEDT 2015, jobTitle=Director of First Impressions, company=Comtest]
+Ambassador of buzz::Job [driverLicenseRequired=false, requiredCertificates=[The Asker of Good Questions], workersRequired=2, startDate=Tue Nov 10 15:11:26 AEDT 2015, jobTitle=Ambassador of buzz, company=Zytrac]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award], workersRequired=4, startDate=Sat Nov 14 21:07:21 AEDT 2015, jobTitle=Director of First Impressions, company=Nimon]
+Crayon Evangelist::Job [driverLicenseRequired=true, requiredCertificates=[Excellence in Organization], workersRequired=1, startDate=Sun Nov 01 15:36:23 AEDT 2015, jobTitle=Crayon Evangelist, company=Cinaster]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[Healthy Living Promoter], workersRequired=5, startDate=Thu Nov 12 07:45:02 AEDT 2015, jobTitle=Director of First Impressions, company=Eplode]
+
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aacbff2d14fcaae283, Job Starting on :6 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aacbff2d14fcaae283; WorkerAvailableStrategy failed validation
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa4742de2c682f07f7, Job Starting on :1 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa4742de2c682f07f7; Difference in Location : 40.45904510669865 , Max :50
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa66f3026d02651040, Job Starting on :5 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa66f3026d02651040; Difference in Location : 49.59834062473364 , Max :50
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa99105d7eaf0c9694, Job Starting on :7 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa99105d7eaf0c9694; Difference in Location : 38.84353946801278 , Max :50
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.engine.JobMatchingEngine - For Worker 12 , Matching jobs are : 562f66aa4742de2c682f07f7, 562f66aa66f3026d02651040, 562f66aa99105d7eaf0c9694
+2018-10-28 21:39:50 [main] INFO  com.vg.sj.service.WorkerService - No Matching Worker Found For id 10000
+2018-10-28 21:39:50 [main] INFO  c.v.s.e.RestExceptionHandler - <404 Not Found,VndErrors[VndError[logref: 10000, message: Worker could not be found with id: 10000, links: []]],{}>
+2018-10-28 21:39:50 [main] INFO  com.vg.sj.service.JobService - Jobs grouped by JobTitle ::
+ Head of global trends and futuring::Job [driverLicenseRequired=false, requiredCertificates=[Marvelous Multitasker], workersRequired=3, startDate=Sat Oct 31 20:38:55 AEDT 2015, jobTitle=Head of global trends and futuring, company=Plasto]
+Chief Amazement Officer::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, Healthy Living Promoter, Calm in the Eye of the Storm], workersRequired=4, startDate=Mon Nov 23 06:37:15 AEDT 2015, jobTitle=Chief Amazement Officer, company=Duoflex]
+Chief Amazement Officer::Job [driverLicenseRequired=true, requiredCertificates=[Office Lunch Expert], workersRequired=3, startDate=Fri Oct 30 02:50:29 AEDT 2015, jobTitle=Chief Amazement Officer, company=Perkle]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, Marvelous Multitasker, The Behind the Scenes Wonder], workersRequired=2, startDate=Sun Nov 08 23:56:53 AEDT 2015, jobTitle=Director of First Impressions, company=Darwinium]
+Crayon Evangelist::Job [driverLicenseRequired=false, requiredCertificates=[The Human Handbook], workersRequired=1, startDate=Tue Nov 03 14:46:44 AEDT 2015, jobTitle=Crayon Evangelist, company=Bluegrain]
+Chief Amazement Officer::Job [driverLicenseRequired=true, requiredCertificates=[Outside the Box Thinker, Calm in the Eye of the Storm, Healthy Living Promoter], workersRequired=4, startDate=Fri Nov 27 01:51:01 AEDT 2015, jobTitle=Chief Amazement Officer, company=Digifad]
+Director of First Impressions::Job [driverLicenseRequired=true, requiredCertificates=[Outstanding Memory Award, The Asker of Good Questions], workersRequired=4, startDate=Sun Nov 08 08:45:22 AEDT 2015, jobTitle=Director of First Impressions, company=Comtest]
+Ambassador of buzz::Job [driverLicenseRequired=false, requiredCertificates=[The Asker of Good Questions], workersRequired=2, startDate=Tue Nov 10 15:11:26 AEDT 2015, jobTitle=Ambassador of buzz, company=Zytrac]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award], workersRequired=4, startDate=Sat Nov 14 21:07:21 AEDT 2015, jobTitle=Director of First Impressions, company=Nimon]
+Crayon Evangelist::Job [driverLicenseRequired=true, requiredCertificates=[Excellence in Organization], workersRequired=1, startDate=Sun Nov 01 15:36:23 AEDT 2015, jobTitle=Crayon Evangelist, company=Cinaster]
+Director of First Impressions::Job [driverLicenseRequired=false, requiredCertificates=[Healthy Living Promoter], workersRequired=5, startDate=Thu Nov 12 07:45:02 AEDT 2015, jobTitle=Director of First Impressions, company=Eplode]
+
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aacbff2d14fcaae283, Job Starting on :6 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.engine.JobMatchingEngine - JobId : 562f66aacbff2d14fcaae283; WorkerAvailableStrategy failed validation
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa4742de2c682f07f7, Job Starting on :1 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa4742de2c682f07f7; Difference in Location : 40.45904510669865 , Max :50
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa66f3026d02651040, Job Starting on :5 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa66f3026d02651040; Difference in Location : 49.59834062473364 , Max :50
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa99105d7eaf0c9694, Job Starting on :7 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.s.LocationMatchStrategy - JobId: 562f66aa99105d7eaf0c9694; Difference in Location : 38.84353946801278 , Max :50
+2018-10-28 21:39:50 [main] INFO  c.v.s.p.engine.JobMatchingEngine - For Worker 12 , Matching jobs are : 562f66aa4742de2c682f07f7, 562f66aa66f3026d02651040, 562f66aa99105d7eaf0c9694
+2018-10-28 21:39:50 [main] DEBUG c.v.s.p.s.WorkerAvailableStrategy - JobId : 562f66aa4742de2c682f07f7, Job Starting on :1 , Available Indexes : 1, 2, 3, 4, 5, 7
+2018-10-28 21:39:50 [main] INFO  com.vg.sj.service.JobService - Jobs grouped by JobTitle ::
+ Creator of opportunities::Job [driverLicenseRequired=false, requiredCertificates=[The Encouraging Word Award, The Behind the Scenes Wonder], workersRequired=3, startDate=Wed Nov 25 16:20:28 AEDT 2015, jobTitle=Creator of opportunities, company=Zboo]
+Arts and Crafts Designer::Job [driverLicenseRequired=false, requiredCertificates=[Excellence in Humor and Entertainment, Office Lunch Expert], workersRequired=1, startDate=Sat Nov 21 23:46:43 AEDT 2015, jobTitle=Arts and Crafts Designer, company=Xylar]
+Arts and Crafts Designer::Job [driverLicenseRequired=false, requiredCertificates=[Outstanding Memory Award, The Encouraging Word Award, Office Lunch Expert], workersRequired=4, startDate=Mon Nov 02 16:37:26 AEDT 2015, jobTitle=Arts and Crafts Designer, company=Delphide]
+Creator of opportunities::Job [driverLicenseRequired=true, requiredCertificates=[Healthy Living Promoter], workersRequired=5, startDate=Sun Nov 01 00:59:33 AEDT 2015, jobTitle=Creator of opportunities, company=Kyagoro]
+Creator of opportunities::Job [driverLicenseRequired=false, requiredCertificates=[The Asker of Good Questions, The Behind the Scenes Wonder, Outstanding Innovator], workersRequired=2, startDate=Thu Oct 29 16:45:44 AEDT 2015, jobTitle=Creator of opportunities, company=Solaren]
+Arts and Crafts Designer::Job [driverLicenseRequired=true, requiredCertificates=[Marvelous Multitasker, Healthy Living Promoter], workersRequired=2, startDate=Sun Nov 08 18:44:19 AEDT 2015, jobTitle=Arts and Crafts Designer, company=Zolarity]
+Creator of opportunities::Job [driverLicenseRequired=false, requiredCertificates=[Outside the Box Thinker, Excellence in Organization], workersRequired=5, startDate=Mon Nov 23 12:11:40 AEDT 2015, jobTitle=Creator of opportunities, company=Xixan]
+
