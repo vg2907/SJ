@@ -12,7 +12,7 @@ READ-ME
 
 2) To Test,	
 	Junit and Integration Tests are present for testing endpoints.
-	It can also be tested at lhttp://localhost:8163/searches/{xxx}
+	It can also be tested at http://localhost:8163/searches/{xxx}
 	e.g http://localhost:8163/searches/12
 
 3) Log file will be generated under /SJ/sj.log
