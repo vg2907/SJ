@@ -19,7 +19,6 @@ import com.vg.sj.processor.strategy.DriversLincenseNeededStrategy;
 import com.vg.sj.processor.strategy.JobMatchingStrategy;
 import com.vg.sj.processor.strategy.LocationMatchStrategy;
 import com.vg.sj.processor.strategy.TransportationMatchStrategy;
-import com.vg.sj.processor.strategy.WorkerActiveStrategy;
 import com.vg.sj.processor.strategy.WorkerAvailableStrategy;
 import com.vg.sj.processor.strategy.WorkerNeededStrategy;
 import com.vg.sj.service.JobService;
@@ -35,9 +34,6 @@ public class JobMatchingEngine {
 
 	@Autowired
 	private AppConfiguration appConfiguration;
-
-	@Autowired
-	private WorkerActiveStrategy workerActiveStrategy;
 
 	@Autowired
 	private WorkerAvailableStrategy workerAvailableStrategy;
@@ -65,7 +61,6 @@ public class JobMatchingEngine {
 
 	@PostConstruct
 	public void registerMatchingStrategies() {
-		jobMatchingStrategy.add(workerActiveStrategy);
 		jobMatchingStrategy.add(workerAvailableStrategy);
 		jobMatchingStrategy.add(certificatesPresentStrategy);
 		jobMatchingStrategy.add(transportationMatchStrategy);

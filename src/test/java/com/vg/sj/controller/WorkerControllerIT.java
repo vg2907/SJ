@@ -16,7 +16,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import com.vg.sj.SjApplication;
-import com.vg.sj.rest.WorkerController;
 
 /**
  * 
@@ -30,9 +29,6 @@ public class WorkerControllerIT {
 
 	@Autowired
 	private MockMvc mvc;
-
-	@Autowired
-	private WorkerController workerController;
 
 	@Before
 	public void setUp() throws Exception {
@@ -49,7 +45,7 @@ public class WorkerControllerIT {
 
 	@Test
 	public void whenValidInput_noMatchingJob_204() throws Exception {
-		this.mvc.perform(get("/searches/{workerId}", 1).accept(MediaType.ALL)).andExpect(status().isNoContent());
+		this.mvc.perform(get("/searches/{workerId}", 2).accept(MediaType.ALL)).andExpect(status().isNoContent());
 	}
 
 	@Test
